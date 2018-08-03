@@ -48,5 +48,4 @@ reference-yaml:
                     command-2: md5sum *.fa.gz > postdownload-checksums.md5
                     command-3: gunzip *.gz
                     command-4: cat *.fa > hg19.fa
-                    command-5: yes | rm chr*.fa
-                    command-6: md5sum *.fa > final-checksums.md5
+                    command-5: md5sum *.fa > final-checksums.md5
